@@ -37,10 +37,10 @@ int QtyRequest()
 
 void LinesCross(double b1, double k1, double b2, double k2)
 {
-    double x0 = (b2 - b1) / (k1 - k2);
-    double y0 = k1 * x0 + b1;
+    double xo = (b2 - b1) / (k1 - k2);
+    double yo = k1 * xo + b1;
 
-    Console.WriteLine($"({x0}; {y0})");
+    Console.WriteLine($"({xo}; {yo})");
 }
 
 double Coefficients(string coeffName)
